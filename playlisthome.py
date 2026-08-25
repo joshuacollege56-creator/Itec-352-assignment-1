@@ -2,8 +2,10 @@
 playlist = ["Here Comes the Sun", "Blue in Green", "All of Me"]
 
 def add_song(title):
-    playlist.append("Love Like you")
-    playlist.append("drive me crazy")
+    title = input("Type a song to add: ")
+    playlist.append(title)
+    
+   
    # """Add title to the global playlist. (No return)"""
 
 
